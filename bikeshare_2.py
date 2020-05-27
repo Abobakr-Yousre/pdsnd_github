@@ -149,12 +149,17 @@ def user_stats(df, city):
 
 
 def individual(df):
+    # Creat variable to indecate the starting print point
     i = 0
+    # Asking user for individaul data trip
     individaul_data = input("\nWould you like to see individual data trip?  (yes/no)\n ")
     if individaul_data.lower() == 'yes':
+        # loop to print 5 lines of individual Trip and
         while True:
             print(df.iloc[i:i+5])
+            # adding  5 to  print the next 5 line
             i += 5
+            # asking user for more data
             more_data = input("\nWould you like to see more data ? (yes/no)\n")
             if more_data.lower() != "yes":
                 break
