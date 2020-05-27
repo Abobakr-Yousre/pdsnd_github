@@ -23,3 +23,9 @@ and i have got feedback and some  help to
 apply individual data function by Udacity's mentors
 https://knowledge.udacity.com/questions/64915
 https://knowledge.udacity.com/questions/26261
+
+### Installation  
+You need to have the data files and add their path in the **DATA_CITIES** dictionary
+
+### Running
+All you need just run **bikeshare_2.py**  on your terminal

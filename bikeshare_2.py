@@ -147,6 +147,7 @@ def user_stats(df, city):
     else:
         print("Sorry Washington has no user information data.")
     i = 0
+    # asking the usre for individaul_data
     individaul_data = input("\nWould you like to see individual data trip?  (yes/no)\n ")
     if individaul_data.lower() == 'yes':
         while True:
