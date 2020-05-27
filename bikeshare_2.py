@@ -146,6 +146,9 @@ def user_stats(df, city):
         print('-'*40)
     else:
         print("Sorry Washington has no user information data.")
+
+
+def individual(df):
     i = 0
     individaul_data = input("\nWould you like to see individual data trip?  (yes/no)\n ")
     if individaul_data.lower() == 'yes':
@@ -166,6 +169,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
+        individual(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
