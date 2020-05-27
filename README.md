@@ -1,15 +1,25 @@
 ### Date created
-Include the date you created this project and README file.
+The code for  this project and writing  README file.
 
 ### Project Title
-Replace the Project Title
+ **Analysis** for
+  US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+**Explore US Bikeshare Data** For three cities and make some statistical operation on filtered data by asking the user to choose which city and the date filter,
+and automatically will display the result and give the option to display an individual trips
 
 ### Files used
-Include the files used
+**CSV** *data collected for three cities*
+
+chicago.csv,
+new_york_city.csv,
+washington.csv.
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+The project has been reviewed  by Udacity
+and i have got feedback and some  help to
+apply individual data function by Udacity's mentors
+https://knowledge.udacity.com/questions/64915
+https://knowledge.udacity.com/questions/26261
